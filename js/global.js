@@ -26,3 +26,16 @@ var movieTrailer = new Trailer('Max Steal', 'Tf4sa0BVJVw')
 
 //Instance 4
 var movieTrailer = new Trailer('Justice League', 'fIHH5-HVS9o')
+
+
+$(document).ready(function(){
+    $('button').sparkle({
+      color: "#FFFFFF",
+      count: 200     ,
+      overlap: 0,
+      speed: 1,
+      minSize: 4,
+      maxSize: 7,
+      direction: "both",
+    })
+})
